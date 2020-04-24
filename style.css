@@ -471,8 +471,8 @@ footer {
             margin-left: 15px;
         }
       .column {
-        flex: 50%;
-        max-width: 48%;
+        flex: 100%;
+        max-width: 99%;
       }
         .page-control {
         display: none;
@@ -481,14 +481,31 @@ footer {
     
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
-      /* .column {
-        flex: 100%;
-        max-width: 99%;
-      } */
+        /* .column {
+            flex: 50%;
+            max-width: 48%;
+          } */
       .overlay {
-        left: 14.5%;
-        height: 403px;
-        width: 403px;
+        left: 19%;
+        height: 315px;
+        width: 315px;
         top: 37.3%;
     }
+    .page-control {
+        display: none;
     }
+    #contact-background {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        display: block;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .column {
+        flex: 100%;
+        max-width: 99%;
+    } */
