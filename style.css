@@ -225,6 +225,18 @@ hr {
     padding-right: 20px;
 }
 
+#skillsList {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+}
+/* #skillsList {
+    display: flex;
+    flex: column;
+    flex-basis: 100%;
+    flex: 1;
+} */
+
 #resume-pic {
     /* display: flex; */
     /* flex-direction: column;
